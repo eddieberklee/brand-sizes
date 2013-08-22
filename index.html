@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <style>
+        .cloth-box {
+            background-color: #333;
+            color: #fff;
+            width:       150px;
+            height:      150px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .cloth-box .icon {
+            font-size: 3em;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .cloth-box .type {
+            font-size: 1.3em;
+            text-align: center;
+            text-transform: uppercase;
+            color: #777;
+        }
+        .cloth-box .size {
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .cloth-box.smaller {
+            width: 90px;
+            height: 90px;
+            font-size: 0.6em;
+            border-radius: 50%;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+    </style>
+    <div id="container">
+        <div class="cloth-box">
+            <div class="icon">
+                <span class="glyphicon glyphicon-user"></span>
+            </div>
+            <div class="type">
+                Shirts
+            </div>
+            <div class="size">
+                M
+            </div>
+        </div>
+        <div class="cloth-box">
+            <div class="icon">
+                <span class="glyphicon glyphicon-tower"></span>
+            </div>
+            <div class="type">
+                Pants
+            </div>
+            <div class="size">
+                L (32x34)
+            </div>
+        </div>
+        <div class="cloth-box">
+            <div class="icon">
+                <span class="glyphicon glyphicon-tint"></span>
+            </div>
+            <div class="type">
+                Button-Up
+            </div>
+            <div class="size">
+                S
+            </div>
+        </div>
+
+
+        <style>
+            .new {
+                width: 500px;
+                background-color: #ddd;
+                padding: 20px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .new h2 {
+                margin-top: 0;
+                font-family: 'Montserrat';
+            }
+            .new h3 {
+                text-transform: uppercase;
+                font-family: 'Montserrat';
+                font-size: 1.2em;
+            }
+        </style>
+        <div class="new">
+            <h2>New</h2>
+
+            <div class="form-group">
+                <label for="new-brand">Brand</label>
+                <input type="text" class="form-control" id="brand" placeholder="Name of brand">
+            </div>
+
+            <div class="form-group">
+                <label for="new-type">Type</label>
+                <div class="cloth-box smaller">
+                    <div class="icon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </div>
+                    <div class="type">
+                        Shirts
+                    </div>
+                    <div class="size">
+                        M
+                    </div>
+                </div><!-- /.cloth-box -->
+                <div class="cloth-box smaller">
+                    <div class="icon">
+                        <span class="glyphicon glyphicon-tower"></span>
+                    </div>
+                    <div class="type">
+                        Pants
+                    </div>
+                    <div class="size">
+                        L (32x34)
+                    </div>
+                </div><!-- /.cloth-box -->
+                <div class="cloth-box smaller">
+                    <div class="icon">
+                        <span class="glyphicon glyphicon-tint"></span>
+                    </div>
+                    <div class="type">
+                        Button-Up
+                    </div>
+                    <div class="size">
+                        S
+                    </div>
+                </div><!-- /.cloth-box -->
+
+            <div class="form-group">
+                <label for="new-size">Size</label>
+                <br>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Pick a Size <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">XS</a></li>
+                        <li><a href="#">S</a></li>
+                        <li><a href="#">M</a></li>
+                        <li><a href="#">L</a></li>
+                        <li><a href="#">XL</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Custom link</a></li>
+                    </ul>
+                </div><!-- /.btn-group -->
+            </div><!-- /.form-group -->
+
+            <div class="form-group">
+                <label for="new-comments">Comments</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-success" style="width:100px;">Add</button>
+        </div>
+    </div>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+        });
+    </script>
+</body>
+</html>
